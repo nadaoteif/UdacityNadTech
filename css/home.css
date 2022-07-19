@@ -1,0 +1,61 @@
+      section .content{
+        width: 80%;
+        margin: 40px auto;
+      }
+      section .title{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+      }
+      section .title span{
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        font-weight: 600;
+        position: relative;
+        padding-bottom: 8px;
+        padding-top:40px;
+      }
+      section  .topic{
+        color: #000000;
+        font-size: 25px;
+        font-weight: 500;
+        margin-bottom: 10px;
+      }
+      section .button{
+        margin: 16px 0;
+      }
+      section .button button{
+        outline: none;
+        padding: 8px 16px;
+        border-radius: 4px;
+        font-size: 20px;
+        font-weight: 400;
+        background: #000000;
+        color: #fff;
+        border: 2px solid transparent;
+        transition: all 0.4s ease;
+      }
+      section .button button:hover{
+        border-color: #000000;
+        background-color: #fff;
+        color: #000000;
+      }
+          /*home*/
+    .home{
+      display: flex;
+      height: 100vh;
+      width: 90%;
+      margin: 0 auto;
+      background-size: cover;
+      background-attachment: fixed;
+      text-align: center;
+      justify-content: center;
+    }
+    .home .img{
+      background: url('../img/background.jpg') no-repeat;
+      width: 100%;
+      height: auto;
+      background-repeat: no-repeat;
+      background-size:cover;
+      border: 2px solid rgb(0, 0, 0);
+    }

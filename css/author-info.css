@@ -1,0 +1,36 @@
+.author-info{
+  padding-bottom:40px;
+}
+.author-info .title1{
+    font-size: 30px;
+}
+  .author-img {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    background-size: cover;
+    background-image: url('../img/logo.JPG');
+    border-radius: 50%;
+  }
+.author-details{
+    margin: auto;
+}    
+.name{
+    font-size: 25px;
+}
+.media-icons a{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin: 0 6px;
+
+  }
+  .media-icons a:hover{
+    color: rgb(119, 118, 118);
+  }
+.author-title,.current{
+    font-size: 16px;
+}
+.author-bio{
+    margin: auto;
+    width: 45%;
+}

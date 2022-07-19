@@ -1,0 +1,46 @@
+
+  /*footer*/
+  footer{
+    display: flex;
+    width: 100%;
+    background: #000;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+   .footer-content{
+   color: #fff;
+   padding-bottom: 20px;
+  }
+   .footer-content h3{
+      font-size: 30px;
+  }
+  .subscription{
+    padding-bottom: 20px;
+  }
+  .footer-content .subscription input[type="text"]{
+    height: 45px;
+    width: 70%;
+    float: left;
+    color: #ffffff;
+    background: #111;
+    border-radius: 5px;
+    border: 2px solid #111;
+    margin: 0px;
+  }
+  .footer-content .subscription input[type="submit"]{
+    height: 45px;
+    width: 25%;
+    float: inline-end;
+    color: #000000;
+    background: #ffffff;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+    font-size: 20px;
+  }
+  .footer-content .subscription input[type="submit"]:hover{
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    border: 1px solid #ffffff;
+  }
+

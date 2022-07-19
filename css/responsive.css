@@ -1,0 +1,45 @@
+@media (min-width:250px) and (max-width:950px){
+    .logo a{
+      font-size: 65px;
+    }
+    .navbar .menu{
+      font-size: 20px;
+      text-decoration: none;
+    }
+    .grid-container{
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      justify-content: space-between;
+      grid-gap: 25px;
+      margin: 0 auto;
+    }
+    input[type="button"]{
+      width: auto;
+    }
+    .post-header,.post-header2,.post-header3,.post-header4,.post-header5,.post-header6{
+      width: 100%;  
+    }
+      .author-bio{
+        width: auto;
+  }
+    .footer-content h3{
+      font-size: 25px;
+    }
+    .footer-content p{
+    margin: 0 auto;
+    padding-bottom: 10px;
+    }
+    .subscription{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-gap:10px;
+    }
+    .footer-content .subscription input[type="text"], input[type="submit"]{
+    margin: 0 auto;
+    }
+   .footer-content .subscription input[type="submit"]{
+    font-size: 17px;  
+    width: auto;
+    }
+
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Herr+Von+Muellerhoff&display=swap');
+*{
+    font-family: 'Electrolize', sans-serif;
+    box-sizing: border-box;
+}
+nav{
+    width: 90%;
+    z-index: 998;
+    margin: auto;
+    transition: all 0.3s ease;
+    padding-bottom: 30px;
+  }
+  nav .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    background: #000;
+  }
+  nav .navbar .menu{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    padding: 0px;
+  }
+  nav .navbar .menu li{
+    list-style: none;
+    margin: 0 8px;
+  }
+  .navbar .menu a{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    padding: 6px 0;
+    transition: all 0.4s ease;
+    text-decoration: none;
+
+  }
+  .navbar .menu a:hover{
+    color: rgb(119, 118, 118);
+  }
+  .logo a{
+    display: flex;
+    font-size: 100px;
+    color: black;  
+    justify-content: center;
+    text-decoration: none; 
+}

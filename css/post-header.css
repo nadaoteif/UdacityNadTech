@@ -1,0 +1,57 @@
+.post-header{
+    color: rgb(255, 255, 255);   
+    height: 20vh;
+    width: 100%;
+    background: url('../img/AI.jpg');
+    background-size: cover;
+    background-position:bottom;
+} 
+.post-header2{
+    color: rgb(255, 255, 255);   
+    height: 20vh;
+    width: 100%;
+    background: url('../img/IoT.jpg');
+    background-size: cover;
+    background-position:bottom;
+} 
+.post-header3{
+    color: rgb(255, 255, 255);   
+    height: 20vh;
+    width: 100%;
+    background: url('../img/CyberSecurity.jpg');
+    background-size: cover;
+    background-position:top;
+}
+.post-header4{
+    color: rgb(255, 255, 255);   
+    height: 20vh;
+    width: 100%;
+    background: url('../img/MachineLearning.jpg');
+    background-size: cover;
+    background-position:bottom fixed;
+}  
+.post-header5{
+    color: rgb(255, 255, 255);   
+    height: 20vh;
+    width: 100%;
+    background: url('../img/VR.jpg');
+    background-size: cover;
+    background-position:bottom;
+} 
+.post-header6{
+    color: rgb(255, 255, 255);   
+    height: 20vh;
+    width: 100%;
+    background: url('../img/Blockchain.jpg');
+    background-size: cover;
+    background-position:bottom;
+} 
+.post-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    height: 100%;
+    line-height: 5px;
+}
+
